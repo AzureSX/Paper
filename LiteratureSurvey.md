@@ -58,7 +58,7 @@
 
 # WWW 2022
 
-- [ ] **STAM: A Spatiotemporal Aggregation Method for Graph Neural Network-based Recommendation**
+- [x] **STAM: A Spatiotemporal Aggregation Method for Graph Neural Network-based Recommendation**
 - [x] **Large-scale Personalized Video Game Recommendation via Social-aware Contextualized Graph Neural Network**
 
 
@@ -73,3 +73,8 @@
 
 - [ ] **Modeling Two-Way Selection Preference for Person-Job Fit**
 
+
+
+# WSDM 2023
+
+[WSDM'23 推荐系统论文梳理 (qq.com)](https://mp.weixin.qq.com/s/-8n8x3cCII9nnOq2-X2-Fg)
