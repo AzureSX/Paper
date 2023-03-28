@@ -78,3 +78,44 @@
 # WSDM 2023
 
 [WSDM'23 推荐系统论文梳理 (qq.com)](https://mp.weixin.qq.com/s/-8n8x3cCII9nnOq2-X2-Fg)
+
+
+
+# WWW 2023
+
+- [ ] **RL-MPCA: A Reinforcement Learning Based Multi-Phase Computation Allocation Approach for Recommender Systems**（强化学习）
+- [ ] **ApeGNN: Node-Wise Adaptive Aggregation in GNNs for Recommendation**
+- [ ] **LINet: A Location and Intention-Aware Neural Network for Hotel Group Recommendation**
+- [ ] **Recommendation with Causality enhanced Natural Language Explanations**
+- [ ] **Robust Preference-Guided Denoising for Graph based Social Recommendation**
+- [ ] **Show Me The Best Outfit for A Certain Scene: A Scene-aware Fashion Recommender System**
+- [ ] **Multi-Task Recommendations with Reinforcement Learning**
+- [ ] **Code Recommendation for Open Source Software Developers**
+
+
+
+# WSDM 2023
+
+**图网络**
+
+- [ ] **DGRec: Graph Neural Network for Recommendation with Diversified Embedding Generation** （多样性推荐）
+- [ ] **VRKG4Rec: Virtual Relational Knowledge Graph for Recommendation**（融合知识图谱）
+- [ ] **Cognition-aware Knowledge Graph Reasoning for Explainable Recommendation**（融合知识图谱）
+
+**跨域推荐**
+
+- [ ] **One for All, All for One: Learning and Transferring User Embeddings for Cross-Domain Recommendation**
+
+**其他**
+
+- [ ] **Disentangled Representation for Diversified Recommendations**
+- [ ] **A Causal View for Item-level Effect of Recommendation on User Preference**
+- [ ] **Explicit Counterfactual Data Augmentation for Recommendation**
+
+
+
+
+
+# AAAI 2023
+
+- [ ] LANCER: A Lifetime-Aware News Recommender System
