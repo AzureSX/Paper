@@ -98,8 +98,8 @@
 
 **图网络**
 
-- [ ] **DGRec: Graph Neural Network for Recommendation with Diversified Embedding Generation** （多样性推荐）
-- [ ] **VRKG4Rec: Virtual Relational Knowledge Graph for Recommendation**（融合知识图谱）
+- [x] **DGRec: Graph Neural Network for Recommendation with Diversified Embedding Generation** （多样性推荐）
+- [x] **VRKG4Rec: Virtual Relational Knowledge Graph for Recommendation**（融合知识图谱）
 - [ ] **Cognition-aware Knowledge Graph Reasoning for Explainable Recommendation**（融合知识图谱）
 
 **跨域推荐**
