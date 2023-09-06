@@ -24,7 +24,7 @@ $$
 $$
 $\cal I$ 表示节点,也就是全部 item，${\mathcal E}_{I}$ 表示边，每条边 $
 \left(i_{\varepsilon},i_{\kappa}\right)\in{\mathcal{E}}_{I} 
-$ 表示$i_{\varepsilon},i_{\kappa}$ 是由同一个用户交互的 item，根据边缘权重应用最大采样来选择MI(GI 中每个节点的邻居个数)最相关的项目作为每个项目的最终邻居，从而滤除用户不确定行为模式引入的噪声
+$ 表示 $i_{\varepsilon},i_{\kappa}$ 是由同一个用户交互的 item，根据边缘权重应用最大采样来选择MI(GI 中每个节点的邻居个数)最相关的项目作为每个项目的最终邻居，从而滤除用户不确定行为模式引入的噪声
 
 构建交互图后，从 ${\cal G}_{I}$ 中每个项目的邻居传播信息，以利用项目之间的交互关系来更新项目表示。采用 LightGCN 来进行信息传播
 $$
@@ -96,9 +96,10 @@ $$
 
 positive pair: $(\tilde{\bf e}_{u_\varepsilon}^{*},\hat{\bf e}_{u_\varepsilon}^{*}) $
 
-negative pair:$$
-(\tilde{\bf e}_{u_{\epsilon}}^{*},\hat{\bf e}_{u_{\kappa}}^{*})|\kappa\,=\,1,...,\epsilon\,-\,1,\epsilon\,+\,1,...,N]) 
-$$
+negative pair:$
+(\tilde{\bf e}_{u_{\epsilon}}^{*},\hat{\bf e}_{u_{\kappa}}^{*})|\kappa\,=\,1,...,\epsilon\,-\,1,\epsilon\,+\,1,...,N]) $
+
+
 $$
 {\mathcal{L}}_{s s l}={\frac{\exp(\lambda\sin({\tilde{\mathbf{e}}}_{u_{\epsilon}}^{*},{\hat{\mathbf{e}}}_{u_{\epsilon}}^{*}))}{\exp(\lambda\sin({\tilde{\mathbf{e}}}_{u_{\epsilon}}^{*},{\hat{\mathbf{e}}}_{u_{\epsilon}}^{*}))+\sum_{\mathbf{\kappa}=1,\mathbf{\kappa}\neq \epsilon}^{N}\exp(\lambda\sin({\tilde{\mathbf{e}}}_{u_{\epsilon}}^{*},{\hat{\mathbf{e}}}_{u_{\kappa}}^{*}))}}
 $$
@@ -108,10 +109,10 @@ $$
 }{\bf v}/||{\bf u}||||{\bf v}||
 $$
 
-**多任务学习**
 $$
 {\cal L}={\cal L}_{m a i n}+\alpha{\cal L}_{s s l}
 $$
+
 
 
 **对比基线**
